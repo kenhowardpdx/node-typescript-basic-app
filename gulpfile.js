@@ -10,7 +10,10 @@ gulp.task('copy-config', function () {
 });
 
 gulp.task('typescript', function () {
-	var tsResult = gulp.src('./src/**/*.ts')
+	var tsResult = gulp.src([
+			'./typings/tsd.d.ts',
+			'./src/**/*.ts'
+		])
         .pipe(ts(tsProject));
 	
 	return tsResult.js.pipe(gulp.dest('./app/'));
