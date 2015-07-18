@@ -19,6 +19,9 @@
     },
     "mime/mime.d.ts": {
       "commit": "c0fdc8f774149840e99e45656be3013143f31309"
+    },
+    "nconf/nconf.d.ts": {
+      "commit": "c0fdc8f774149840e99e45656be3013143f31309"
     }
   }
 }

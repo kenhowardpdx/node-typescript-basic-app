@@ -23,7 +23,8 @@
   "homepage": "https://github.com/kenhowardpdx/node-typescript-basic-app",
   "dependencies": {
     "express": "^4.13.1",
-    "mongoose": "^4.0.7"
+    "mongoose": "^4.0.7",
+    "nconf": "^0.7.1"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
