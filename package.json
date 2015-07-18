@@ -1,0 +1,32 @@
+{
+  "name": "node-typescript-basic-app",
+  "version": "1.0.0",
+  "description": "node-typescript-basic-app",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12 <0.13"
+  },
+  "scripts": {
+    "start": "node ./app/index.js",
+    "postinstall": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenhowardpdx/node-typescript-basic-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenhowardpdx/node-typescript-basic-app/issues"
+  },
+  "homepage": "https://github.com/kenhowardpdx/node-typescript-basic-app",
+  "dependencies": {
+    "express": "^4.13.1",
+    "mongoose": "^4.0.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.7.8"
+  }
+}
