@@ -5,9 +5,6 @@
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
   "installed": {
-    "node/node.d.ts": {
-      "commit": "c0fdc8f774149840e99e45656be3013143f31309"
-    },
     "express/express.d.ts": {
       "commit": "c0fdc8f774149840e99e45656be3013143f31309"
     },
@@ -22,6 +19,9 @@
     },
     "nconf/nconf.d.ts": {
       "commit": "c0fdc8f774149840e99e45656be3013143f31309"
+    },
+    "node/node.d.ts": {
+      "commit": "7e93eceeffe51f908a4d986aa55561053cc22479"
     }
   }
 }
