@@ -31,3 +31,7 @@ node_modules
 # Compiled JavaScript files
 app/*.*
 !app/.gitkeep
+
+# Settings
+.settings
+.idea
