@@ -5,7 +5,7 @@ node-typescript-basic-app
 2. Run `npm install` to install node dependencies and generate JavaScript files
 3. Run `npm start` to start the app (access via `http://localhost:3000`)
 
-## Compiling JavaScript
+## Compiling TypeScript
 
 From the command line, execute `gulp` and then you can execute `npm start` to start the app.
 
