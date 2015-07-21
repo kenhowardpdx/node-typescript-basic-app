@@ -2,8 +2,8 @@
  * This file bootstraps the application
  */
  
-import express = require('express');
-import c = require('nconf');
+import * as express from 'express';
+import * as c from 'nconf';
  
 var app = express();
 
